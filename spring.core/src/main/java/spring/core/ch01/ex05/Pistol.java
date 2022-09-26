@@ -9,3 +9,4 @@ public class Pistol implements Gun {
 		System.out.println("권총 탕탕.");
 	}
 }
+// 지정아이디는 class 를 딴다.

@@ -9,4 +9,4 @@ public class Rifle implements Gun {
 		System.out.println("소총 탕탕.");
 	}
 }
-//@Component("지정아이디") 문법
+// @Component("지정아이디") 문법

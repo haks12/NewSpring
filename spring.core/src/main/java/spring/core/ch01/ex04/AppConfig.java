@@ -14,6 +14,8 @@ public class AppConfig {
 	@Autowired private Gun pistol;
 	@Autowired private Gun rifle;
 	// Autowired가 있으면 bean과 DI를 시켜준다.
+	//1차 bean중에서 파일명일치와 injection
+	//2차 n개일때 파일명이 같다면 bean id와 변수명이 같은걸 injection
 	
 	@Bean
 	public Shooter shooter1() {

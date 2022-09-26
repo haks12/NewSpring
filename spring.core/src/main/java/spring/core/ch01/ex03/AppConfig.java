@@ -9,7 +9,7 @@ import spring.core.ch01.ex02.Shooter;
 
 @Configuration
 public class AppConfig {
-	@Bean // pistol이라는 이름을 가진 bean을 만든다. 선언.
+	@Bean // pistol이라는 이름을 가진 bean을 만든다. 선언.method가 bean의 아이디가 된다.
 	public Pistol pistol() { //container는 @Bean annotation이 붙어있다는 이유로 call 할 것이다.
 		return new Pistol();
 	} 
